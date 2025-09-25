@@ -19,6 +19,6 @@ pip install requests beautifulsoup4
 ## How It Works
 
 Send an HTTP Request: The script first uses the requests library to fetch the HTML content of the news website.
-Parse the HTML Content: The script uses BeautifulSoup to parse the HTML and extract the headlines. It searches for <h1>, <h2>, and <h3> tags that typically contain the headlines.
+Parse the HTML Content: The script uses BeautifulSoup to parse the HTML and extract the headlines. It searches "for <h1>, <h2>, and <h3>" tags that typically contain the headlines.
 Save Headlines: The extracted headlines are saved in a file called headlines.txt.
 Error Handling: If the request fails or the HTML parsing doesn't work as expected, the script handles errors gracefully, allowing you to debug issues.
